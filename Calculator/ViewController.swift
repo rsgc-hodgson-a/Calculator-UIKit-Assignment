@@ -84,7 +84,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func addition(_ sender: Any) {
-    model.}
+        model.addition()
+    }
+    
+    
     
     @IBAction func equals(_ sender: Any) {
         model.equals()
