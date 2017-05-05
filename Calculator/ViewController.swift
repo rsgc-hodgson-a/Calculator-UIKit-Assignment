@@ -87,7 +87,9 @@ class ViewController: UIViewController {
         model.addition()
     }
     
-    
+    @IBAction func subtract(_ sender: Any) {
+        model.subtraction()
+    }
     
     @IBAction func equals(_ sender: Any) {
         model.equals()
@@ -96,4 +98,12 @@ class ViewController: UIViewController {
     }
 }
     
-}
+    @IBAction func clear(_ sender: Any) {
+        model.clear()
+        labelDisplay.text = String("")
+    }
+    
+    
+    }
+    
+
