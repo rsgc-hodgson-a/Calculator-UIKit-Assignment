@@ -58,6 +58,25 @@ class Calculator {
         updateState()
     }
     
+    func plusMinusPressed(){
+        //store provided value as Double
+        if var temp = Double(providedValue){
+            //multiply by -1
+            temp = temp * -1
+            //put back in provided value
+            providedValue = String(format: "%g", temp)
+        }
+    }
+        func percentage(){
+            //store provided value as Double
+            if var temp = Double(providedValue){
+            //divide by 100
+            temp = temp / 100
+            //put back in provided value
+                providedValue = String(format: "%g", temp)
+            }
+    }
+
     /**
      Updates calculator state.
      
