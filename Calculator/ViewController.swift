@@ -78,9 +78,19 @@ class ViewController: UIViewController {
     @IBAction func multiply(_ sender: Any) {
         model.multiply()
     }
-    @IBAction func equals(_ sender: Any) {
-        model.equals()
+    
+    @IBAction func division(_ sender: Any) {
+        model.divide()
     }
     
+    @IBAction func addition(_ sender: Any) {
+    model.}
+    
+    @IBAction func equals(_ sender: Any) {
+        model.equals()
+        if model.computedValue != nil {
+        labelDisplay.text = String(format: "%g",  model.computedValue!)
+    }
 }
-
+    
+}

@@ -66,6 +66,9 @@
                                                 <state key="normal" title="÷">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="division:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BKy-Rd-qke"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -207,6 +210,9 @@
                                                 <state key="normal" title="+">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="addition:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qjb-DZ-mo6"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
