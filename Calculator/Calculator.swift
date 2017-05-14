@@ -58,7 +58,7 @@ class Calculator {
         updateState()
     }
     
-    func plusMinusPressed(){
+    func plusMinus(){
         //detect state
         if providedValue == "" {
             //store in variable

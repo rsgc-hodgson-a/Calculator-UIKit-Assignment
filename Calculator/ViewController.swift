@@ -75,46 +75,46 @@ class ViewController: UIViewController {
         labelDisplay.text = model.providedValue
     }
     
-    @IBAction func multiply(_ sender: Any) {
+    @IBAction func multiplyPressed(_ sender: Any) {
         model.multiply()
     }
     
-    @IBAction func division(_ sender: Any) {
+    @IBAction func divisionPressed(_ sender: Any) {
         model.divide()
     }
     
-    @IBAction func addition(_ sender: Any) {
+    @IBAction func additionPressed(_ sender: Any) {
         model.addition()
     }
     
-    @IBAction func subtract(_ sender: Any) {
+    @IBAction func subtractPressed(_ sender: Any) {
         model.subtraction()
     }
     
-    @IBAction func equals(_ sender: Any) {
+    @IBAction func equalsPressed(_ sender: Any) {
         model.equals()
         if model.computedValue != nil {
         labelDisplay.text = String(format: "%g",  model.computedValue!)
     }
 }
     
-    @IBAction func clear(_ sender: Any) {
+    @IBAction func clearPressed(_ sender: Any) {
         model.clear()
         labelDisplay.text = String("")
     }
     
 
     @IBAction func plusMinusPressed(_ sender: Any) {
-        model.plusMinusPressed()
+        model.plusMinus()
         labelDisplay.text = model.providedValue
     }
     
-    @IBAction func decimal(_ sender: Any) {
+    @IBAction func decimalPressed(_ sender: Any) {
        model.addToNewValue(digit: ".")
         labelDisplay.text = model.providedValue
     }
     
-    @IBAction func percentage(_ sender: Any) {
+    @IBAction func percentagePressed(_ sender: Any) {
         model.percentage()
         labelDisplay.text = model.providedValue
     }

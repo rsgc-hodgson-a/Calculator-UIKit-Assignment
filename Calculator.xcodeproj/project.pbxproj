@@ -26,6 +26,7 @@
 		815483091EB658B600B2BCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8154830F1EB658E500B2BCA1 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		815483101EB658E500B2BCA1 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		9DAB79401EC83BDE00533CA9 /* Assignment_–_Writing_iOS_Apps_with_UIKit-2.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assignment_–_Writing_iOS_Apps_with_UIKit-2.docx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		815482FC1EB658B600B2BCA1 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				9DAB79401EC83BDE00533CA9 /* Assignment_–_Writing_iOS_Apps_with_UIKit-2.docx */,
 				815482FD1EB658B600B2BCA1 /* AppDelegate.swift */,
 				815482FF1EB658B600B2BCA1 /* ViewController.swift */,
 				815483011EB658B600B2BCA1 /* Main.storyboard */,
