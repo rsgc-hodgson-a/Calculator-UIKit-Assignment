@@ -75,34 +75,40 @@ class ViewController: UIViewController {
         labelDisplay.text = model.providedValue
     }
     
+    
     @IBAction func multiplyPressed(_ sender: Any) {
         model.multiply()
     }
     
+  
     @IBAction func divisionPressed(_ sender: Any) {
-        model.divide()
+         model.divide()
+    }
+    
+
+    @IBAction func subtractionPressed(_ sender: Any) {
+         model.subtraction()
     }
     
     @IBAction func additionPressed(_ sender: Any) {
         model.addition()
     }
+ 
     
-    @IBAction func subtractPressed(_ sender: Any) {
-        model.subtraction()
-    }
+   
     
     @IBAction func equalsPressed(_ sender: Any) {
         model.equals()
         if model.computedValue != nil {
-        labelDisplay.text = String(format: "%g",  model.computedValue!)
+            labelDisplay.text = String(format: "%g",  model.computedValue!)
+        }
     }
-}
-    
+        
     @IBAction func clearPressed(_ sender: Any) {
         model.clear()
         labelDisplay.text = String("")
     }
-    
+
 
     @IBAction func plusMinusPressed(_ sender: Any) {
         model.plusMinus()
@@ -110,7 +116,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func decimalPressed(_ sender: Any) {
-       model.addToNewValue(digit: ".")
+        model.addToNewValue(digit: ".")
         labelDisplay.text = model.providedValue
     }
     
@@ -118,7 +124,7 @@ class ViewController: UIViewController {
         model.percentage()
         labelDisplay.text = model.providedValue
     }
-}
+   }
 
     
 
